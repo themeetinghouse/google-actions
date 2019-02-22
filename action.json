@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "The Meeting House"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+            "talk to The Meeting House"
+          ]
+        }
+      }
+    }
+  ],
+  "conversations": {
+    "George Bell": {
+      "name": "The Meeting House",
+      "url": "https://google.com"
+    }
+  },
+  "locale": "en"
+}
