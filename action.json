@@ -4,7 +4,7 @@
       "description": "Default Welcome Intent",
       "name": "MAIN",
       "fulfillment": {
-        "conversationName": "The Meeting House"
+        "conversationName": "WelcomeConversation"
       },
       "intent": {
         "name": "actions.intent.MAIN",
@@ -17,9 +17,9 @@
     }
   ],
   "conversations": {
-    "George Bell": {
-      "name": "The Meeting House",
-      "url": "https://google.com"
+    "WelcomeConversation": {
+      "name": "WelcomeConversation",
+      "url": "https://us-central1-the-meeting-house.cloudfunctions.net/myFunction"
     }
   },
   "locale": "en"
